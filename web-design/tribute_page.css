@@ -1,0 +1,55 @@
+img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+  background: Gainsboro;
+  padding: 2px 0;
+}
+
+#epithet {
+  font-style: italic;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+ul {
+  margin: auto;
+  width: 50%;
+  list-style-type: none;
+}
+
+li {
+    margin: 20px 0;
+}
+
+main {
+  background: Gainsboro;
+  padding: 5px 0;
+}
+
+time {
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+}
+
+#credit {
+  text-align: center;
+  font-weight: bold;
+}

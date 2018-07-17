@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+<link rel="stylesheet" type="text/css" href="survey.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+  </header>
+  <main>
+    <p id="description">How can we improve freeCodeCamp?</p>
+    <form id="survey-form">
+      <div id="form-group">
+        <label for="name" id="name-label">* Name:</label>
+        <div>
+          <input type="text" placeholder="Your name" id="name" required>
+        </div>
+      </div>
+      <div id="form-group">
+        <label for="email" id="email-label">* Email:</label>
+        <div>
+          <input type="email" placeholder="Your email" id="email" required>
+        </div>
+      </div>
+      <div id="form-group">
+        <label for="number" id="number-label">* Age:</label>
+        <div>
+        <input type="number" min=0 max=100 placeholder="Your age" id="number" required>
+        </div>
+      </div>
+      <div id="form-group">
+        <label for="dropdown">Which option best describes your current role?</label>
+        <div>
+          <select id="dropdown">
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+      <div id="form-group">
+        <label>* How likely is that you would recommend freeCodeCamp to a friend?</label>
+        <div>
+          <input type="radio" name="recommend" value="definitely">Definitely</input><br>
+          <input type="radio" name="recommend" value="maybe">Maybe</input><br>
+          <input type="radio" name="recommend" value="no">No</input>
+        </div>
+      </div>
+      <div id="form-group">
+        <label>Things that should be improved in the future (Check all that apply):</label>
+        <div id="checkboxes">
+          <input type="checkbox" value="front-end">Front-end Projects</input><br>
+          <input type="checkbox" value="back-end">Back-end Projects</input><br>
+          <input type="checkbox" value="data-visualization">Data Visualization</input><br>
+          <input type="checkbox" value="challenges">Challenges</input><br>
+          <input type="checkbox" value="open-source">Open Source Community</input>
+        </div>
+      </div>
+      <div id="form-group">
+        <label>Comments or Suggestions</label>
+        <div>
+          <textarea placeholder="Enter your comments" rows="5" cols="30"></textarea>
+        </div>
+      </div>
+      <div id="submit-div">
+        <input type="submit" id="submit">
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>

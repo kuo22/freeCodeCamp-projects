@@ -1,0 +1,53 @@
+body {
+  background: PaleGreen;
+  font-family: sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  background: white;
+  width: 70%;
+  margin: auto;
+  padding: 5px 0;
+  border-radius: 25px;
+}
+
+label {
+  display: inline-block;
+  width: 50%;
+  text-align: right;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+#form-group {
+  margin: 20px 0;
+}
+
+#form-group > div {
+  display: inline-block;
+}
+
+#submit-div {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+#submit {
+  padding: 15px 32px;
+  background: green;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+#number {
+  width: 169px;
+}

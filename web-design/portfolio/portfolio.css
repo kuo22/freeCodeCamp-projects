@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: arial, 
+    sans-serif;
+}
+
+img {
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+  border-style: solid;
+  border-color: #58D68D;
+}
+
+button {
+  cursor: pointer;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #D6EAF8;
+}
+
+#navbar ul {
+  list-style-type: none;
+  float: right;
+  padding-right: 30px;
+}
+
+#navbar li {
+  float: left;
+  margin: 0 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #1B4F72;
+  font-weight: bold;
+}
+
+#welcome-section {
+  background: #D6EAF8;
+  margin: 0;
+  text-align: center;
+  height: 100vh;
+  line-height: 100vh;
+}
+
+#welcome-section span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#welcome-section h2 {
+  color: #1D8348;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#projects {
+  background: #E9F7EF;
+  padding: 20px 0;
+}
+
+#projects h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #283747;
+}
+
+#project-list {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  column-gap: 200px;
+  row-gap: 50px;
+  justify-content: center;
+}
+
+#project-list a {
+  text-decoration: none;
+}
+
+figcaption {
+  font-weight: bold;
+  text-align: center;
+  color: #283747;
+  margin-top: 5px;
+}
+
+#show-more {
+  display: block;
+  text-align: center;
+}
+
+#show-more button {
+  margin-top: 30px;
+  border-style: solid;
+  border-color: #58D68D;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: #EBEDEF;
+  font-weight: bold;
+  font-size: 14px;
+  color: #283747;
+  
+}
+
+#contact-info {
+  padding: 100px 0;
+  background: #D2B4DE;
+  text-align: center;
+}
+
+#contact-info button {
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #8E44AD;
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #EBEDEF;
+}
+
+@media only screen and (max-width: 1350px) {
+  #project-list {
+    grid-template-columns: 300px 300px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #project-list {
+    grid-template-columns: 300px;
+  }
+}
